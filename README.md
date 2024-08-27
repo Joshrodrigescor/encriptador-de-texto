@@ -1,14 +1,12 @@
-Encriptado de Texto
-Descripción
-Este proyecto permite encriptar palabras y desencriptarlas utilizando un algoritmo de cifrado simple. Es útil para proteger información sensible y asegurar que solo las personas autorizadas puedan leer el contenido.
+🚀 Encriptado de Texto
 
-Tecnologías Utilizadas
-HTML: Estructura básica de la interfaz de usuario.
-CSS: Estilos para la presentación y diseño de la interfaz.
-JavaScript: Lógica de encriptado y desencriptado, así como la manipulación del DOM.
-Instalación
-No se requiere instalación adicional. Simplemente clona este repositorio y utiliza los archivos HTML, CSS y JavaScript incluidos.
+📜 Descripción
 
-Uso
-Encriptar un Texto: Puedes usar la función encriptar(texto) en JavaScript para cifrar cualquier palabra o frase.
-Desencriptar un Texto: Para descifrar un texto previamente encriptado, utiliza la función desencriptar(texto_encriptado).
+Este proyecto permite encriptar palabras y desencriptarlas utilizando un algoritmo de cifrado simple. Ideal para proteger información sensible y asegurar que solo las personas autorizadas puedan acceder al contenido.
+
+🛠️ Tecnologías Utilizadas
+
+HTML: Estructura de la interfaz de usuario.
+CSS: Diseño y estilos para una presentación elegante.
+JavaScript: Lógica para encriptar y desencriptar, y manipulación del DOM.
+
