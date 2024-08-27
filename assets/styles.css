@@ -1,0 +1,378 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --color-primario: #E5E5E5;
+    --color-segundario: #0A3871;
+    --color-terciario:  #495057;
+    --color-cuarto: #343A40;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primario);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+
+
+
+.logo{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 5rem;
+}
+
+.principal{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+ 
+
+}
+
+    
+
+.textarea{
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    top: 5%;
+    left: 240px;
+    border: none;
+    cursor: pointer;
+    color: var(--color-segundario);
+    margin-top: 90px;
+    text-transform: lowercase;
+    
+}
+
+::placeholder{
+    color: var(--color-segundario); 
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+
+
+.information{
+    
+    position: absolute;
+    top: 75%;
+    left: 240px;
+    display: flex;
+    color: var(--color-terciario);
+    font-size: 6rem;
+
+}
+
+#icon{
+    padding-top: 1%;
+    font-size: 18px;
+}
+
+#infomation-text{
+    font-size: 18px;}
+
+.contenedor-botones{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 240px;
+    height: 80px;
+    width: 35%;
+    padding-top:15px;
+}
+    
+
+.btn-encriptar { 
+    
+    background-color: var(--color-segundario);
+    border: 1px solid var(--color-segundario);
+    border-radius: 24px;
+    color: var(--color-primario);
+    cursor: pointer;
+    height: 67px;
+    width: 45%;
+    font-size: 16px;
+    }
+.btn-desencriptar {
+    background: var(--color-primario);
+    border: 1px solid var(--color-segundario);
+    border-radius: 24px;
+    color: var(--color-segundario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 45%;
+    font-size: 16px;
+    }
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    width: 20%;
+    left: 75%;
+    padding-right: 20px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px;  
+    
+}
+
+.contenedor-image{
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+}
+
+.image{
+    padding-left: 20%;
+    width: 70%;
+}
+
+
+.contenedor-parrafo{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.contenedor-parrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-cuarto);
+}
+
+
+.contenedor-parrafo p{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}    
+.contenedor-resultado{
+    position: absolute;
+    bottom: 330px;
+    width: 0px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+    background-color: transparent;
+}
+.contenedor-resultado p{
+    font-size: 25px;
+    color: #010316;
+}
+.contenedor-resultado{
+    position: absolute;
+    top: 5%;
+    width: 90%;
+    height: 70%;
+    right: 5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor-btn-copiar{
+    width: 90%;
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    
+}    
+
+.btn-copiar {
+    width: 90%;
+    height: 67px;
+    left: 5%;
+    border: 1px solid var(--color-segundario);
+    border-radius: 24px;
+    color: var(--color-segundario);
+    font-size: 16px;
+    cursor: pointer;    
+    position: absolute;
+}    
+
+.ocultar{
+    display: none;
+}
+
+
+@media (min-width: 600px) and (max-width: 800px) {
+.logo{
+    position: absolute;
+    width: 3rem;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+.textarea {
+    width: 60%;
+    height: 40%;
+    left: 10%;
+    top: 5%;
+    }
+.information {
+    width: 80%;
+    left: 10%;
+    top: 58%;
+    font-size: 16px;
+
+}
+.contenedor-botones{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    top: 62%;
+}
+.btn-encriptar,
+.btn-desencriptar {
+    width: 45%;
+    height: 60%;
+    border-radius: 16px;
+}
+      
+.section-2 {
+    width: 78%;
+    height: 30%;
+    left: 10%;
+    top: 80%;
+}
+.contenedor-parrafo{
+    width: 90%;
+    top: 1%;
+}
+.contenedor-resultado {
+    width: 90%;
+    height: 10%;
+    top: 5%;
+}
+.contenedor-image {
+top: 0;
+display: none;
+visibility: hidden;
+}
+.contenedor-btn-copiar{
+    height: 40%;
+    top: 60%;
+}
+.btn-copiar{
+    width: 40%;
+    height: 50%;
+    left: 30%;
+}
+       
+}
+
+
+@media (min-width: 100px) and (max-width: 600px){
+    .logo{
+        position: absolute;
+        width: 3rem;
+    }
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .textarea {
+        width: 70%;
+        height: 30%;
+        left: 10%;
+        top: 5%;
+        font-size: 0.7rem;
+        }
+    .information {
+        width: 60%;
+        height: 10%;
+        left: 10%;
+        top: 52%;
+    }
+    #infomation-text{
+        font-size: 10px;}
+        #icon{
+            padding-top: 1%;
+            font-size: 10px;
+        }
+    
+    .contenedor-botones{
+        display: flex;
+        position:absolute;
+        flex-direction: column;
+        width: 90%;
+        height: 15%;
+        left: 10%;
+        top: 58%;
+    }
+    .btn-encriptar,
+    .btn-desencriptar {
+        position: absolute;
+        width: 80%;
+        height: 30%;
+        border-radius: 16px;
+    }
+    .btn-encriptar{
+        top: 10%;
+        position: absolute;
+        
+    }
+    .btn-desencriptar {
+        position: absolute;
+        top: 45%;
+        margin-left: 0;
+    }
+          
+    .section-2 {
+        width: 70%;
+        height: 30%;
+        left: 10%;
+        top: 80%;
+    }
+    .contenedor-parrafo{
+        width:80%;
+        top: 1%;
+    }
+    .contenedor-parrafo h3{
+        font-size: 14px ;   
+     }
+    .contenedor-parrafo p{
+        font-size: 12px;
+    }
+    .contenedor-resultado {
+        width: 90%;
+        height: 10%;
+        top: 5%;
+    }
+    .contenedor-image {
+    top: 0;
+    display: none;
+    visibility: hidden;
+    }
+    .contenedor-btn-copiar{
+        top: 60%;
+    }
+    .btn-copiar{
+        width: 60%;
+        height: auto;
+        left: 20%;
+    }
+
+}
+
